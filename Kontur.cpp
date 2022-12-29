@@ -4,8 +4,8 @@
   This project is for creating an AutoCAD extension arx file containing the KONTUR command -
   the C++ application written using Autodesk's ObjectARX.
 
-    Команда KONTUR создаёт и рисует полилинии, оконтуривающие внешний и внутренние (дыры) края выбранной сети типа
-  AcDbSubDMesh или AcDbPolyFaceMesh по её вершинам.
+    Команда KONTUR создаёт и рисует полилинии, оконтуривающие внешний и внутренние (дыры) края выбранной сети
+  типа AcDbSubDMesh или AcDbPolyFaceMesh по её вершинам.
     Контуры определяются проекциями вершин сети на плоскость, перпендикулярную направлению сеть-наблюдатель.
   Наблюдатель находится в бесконечности (перспектива не учитывается).
     Текущие ограничения:
